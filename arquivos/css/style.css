@@ -4,7 +4,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter';
 }
 body {
-    background-color: hsl(36, 100%, 99%);
+    background-color: #FEFDF9;
+    padding: 90px 0 90px 0;
+}
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 35px;
+}
+header nav a:hover {
+    text-decoration: underline;
 }
