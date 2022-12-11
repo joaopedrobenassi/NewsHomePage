@@ -116,6 +116,9 @@ header nav a:hover {
     bottom: 0;
     cursor: pointer;
 }
+.saibaMais button:hover {
+    background-color: hsl(5, 100%, 73%);
+}
 footer {
     margin-top: 100px;
     display: flex;
