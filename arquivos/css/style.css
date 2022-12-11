@@ -117,6 +117,32 @@ header nav a:hover {
     cursor: pointer;
 }
 footer {
-    display: flex;
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.informacoesAdicionais {
+    margin-left: 20px;
+    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.informacoesAdicionais h3 {
+    font-size: 40px;
+    color: hsl(233, 8%, 79%);
+    
+}
+.informacoesAdicionais h4 {
+    font-size: 22px;
+    font-weight: 800;
+   
+}
+.informacoesAdicionais p {
+    font-size: 18px;
+    line-height: 25px;
+    color: hsl(236, 13%, 42%);
+    width: 250px;
 }
