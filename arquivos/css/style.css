@@ -116,3 +116,7 @@ header nav a:hover {
     bottom: 0;
     cursor: pointer;
 }
+footer {
+    display: flex;
+    margin-top: 100px;
+}
