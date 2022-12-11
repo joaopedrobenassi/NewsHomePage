@@ -98,17 +98,18 @@ header nav a:hover {
 }
 .saibaMais p {
     color: hsl(236, 13%, 42%);
-    line-height: 25px;
+    line-height: 28px;
     font-size: 17px;
     width: 400px;
     position: relative;
+    
 }
 .saibaMais button {
     background-color: hsl(5, 85%, 63%);
     color: white;
     text-transform: uppercase;
     border: none;
-    padding: 20px 35px;
+    padding: 20px 40px;
     font-size: 18px;
     letter-spacing: 4px;
     position: absolute;
