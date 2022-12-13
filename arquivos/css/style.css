@@ -33,17 +33,43 @@ body {
 }
 .conteudo_principal{
     width: 1440px;
-    height: 100%;
     margin-top: 60px;
 }
 .imagem_principal{
     width: 70%;
-    height: 30%;
+    height: 380px;
     background-image: url('../imagens/image-web-3-desktop.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-
 }
-
+.informacoes {
+    display: flex;
+    margin-top: 40px;
+    width: 70%;
+    justify-content: space-between;
+}
+.titulo_informacoes {
+    width: 40% ;
+    font-size: 60px;
+    font-weight: 800px;
+}
+.saiba_mais {
+    width: 40%;
+}
+.saiba_mais p {
+    font-size: 17px;
+    width: 400px;
+}
+.saiba_mais .leia_mais{
+    width: 210px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    padding: 20px 25px;
+    margin-top: 40px;
+}
