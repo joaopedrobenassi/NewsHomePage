@@ -34,6 +34,7 @@ body {
 .conteudo_principal{
     width: 1440px;
     height: 100%;
+    margin-top: 60px;
 }
 .imagem_principal{
     width: 70%;
@@ -42,6 +43,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 
