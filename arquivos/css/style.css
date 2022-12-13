@@ -32,6 +32,7 @@ body {
     text-decoration: underline;
 }
 .conteudo_principal{
+    position: relative;
     width: 1440px;
     margin-top: 60px;
 }
@@ -72,4 +73,10 @@ body {
     border: none;
     padding: 20px 25px;
     margin-top: 40px;
+}
+.sessao_new {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 27%;
 }
