@@ -51,9 +51,10 @@ body {
     justify-content: space-between;
 }
 .titulo_informacoes {
+
     width: 40% ;
     font-size: 60px;
-    font-weight: 800px;
+    font-weight: 800;
 }
 .saiba_mais {
     display: flex;
@@ -74,10 +75,11 @@ body {
     font-size: 18px;
     font-weight: 400;
     border: none;
-    padding: 20px 25px;
+    padding: 20px 29px;
     margin-top: 40px;
 }
 .sessao_new {
+    padding: 50px 35px;
     position: absolute;
     top: 0;
     right: 0;
@@ -87,4 +89,31 @@ body {
 }
 .titulo_new {
     color: hsl(35, 77%, 62%);
+    font-size: 50px;
+}
+.informacoes_adicionais {
+    border-bottom: 1px groove hsl(233, 8%, 79%);
+    margin-top: 30px;
+}
+.informacoes_adicionais h4{
+    font-size: 25px;
+    color: white;
+}
+.informacoes_adicionais p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: hsl(233, 8%, 79%);
+}
+.pergunta_final {
+    margin-top: 30px;
+}
+.pergunta_final h4 {
+    font-size: 25px;
+    color: white;
+}
+.pergunta_final p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: hsl(233, 8%, 79%);
 }
