@@ -51,9 +51,9 @@ body {
     justify-content: space-between;
 }
 .titulo_informacoes {
-
     width: 40% ;
-    font-size: 60px;
+    font-size: 65px;
+    font-weight: bolder;
     font-weight: 800;
 }
 .saiba_mais {
@@ -79,7 +79,7 @@ body {
     margin-top: 40px;
 }
 .sessao_new {
-    padding: 50px 35px;
+    padding: 50px 35px 0px 35px;
     position: absolute;
     top: 0;
     right: 0;
@@ -100,9 +100,10 @@ body {
     color: white;
 }
 .informacoes_adicionais p {
+    line-height: 30px;
     font-size: 20px;
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 25px;
     color: hsl(233, 8%, 79%);
 }
 .pergunta_final {
