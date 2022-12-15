@@ -60,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
+    width: 47%;
 }
 .saiba_mais p {
     justify-content: left;
@@ -68,7 +68,7 @@ body {
     line-height: 25px;
 }
 .saiba_mais .leia_mais{
-    width: 210px;
+    width: 230px;
     background-color: hsl(5, 85%, 63%);
     color: white;
     text-transform: uppercase;
@@ -118,4 +118,35 @@ body {
     font-size: 20px;
     margin-top: 20px;
     color: hsl(233, 8%, 79%);
+}
+.rodape {
+    display: flex;
+    margin-top: 100px;
+}
+.caixas {
+    display: flex;
+    justify-content: space-between;
+}
+.curiosidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 0px 20px;
+}
+.curiosidades h5 {
+    color: hsl(233, 8%, 79%);
+    font-size: 40px;
+}
+.curiosidades h6 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+}
+.curiosidades p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.afastamento {
+    margin-right: 40px;
 }
