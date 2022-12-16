@@ -151,7 +151,9 @@ body {
 .afastamento {
     margin-right: 40px;
 }
-
+.menu_interativo {
+    display: none;
+}
 /* INICIANDO RESPONSIVIDADE*/
 
 @media screen and (max-width: 540px){
@@ -162,6 +164,7 @@ body {
         font-family: 'Inter';
     }
     body {
+        position: relative;
         height: 100vh;
         width: 100vw;
         background-color: hsl(36, 100%, 99%);
@@ -181,6 +184,7 @@ body {
         display: none;
     }
     .menu_navegacao {
+        cursor: pointer;
         background-image: url('../imagens/icon-menu.svg');
         width: 40px;
         height: 17px;
@@ -242,6 +246,36 @@ body {
     }
     .afastamento{
         margin-right: 0px;
+    }
+ /* Criando o menu de navegação interativo */   
+    .menu_interativo {
+        transition: all 0.3s;
+        background-color: hsl(36, 100%, 99%);
+        display: block;
+        position: absolute;
+        width: 70%;
+        height: 100vh;
+        right: 0;
+        top: 0;
+    }
+    .icone {
+        margin-top: 30px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: end;
+    }
+    .navegacao {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+    .navegacao a {
+        text-decoration: none;
+        color: hsl(240, 100%, 5%);
+        font-weight: 400;
+        margin-bottom: 30px; 
+        cursor: pointer;     
     }
 }
  
