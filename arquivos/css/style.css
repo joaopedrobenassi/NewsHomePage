@@ -23,11 +23,15 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .menu_navegacao .links {
     font-size: 20px;
     text-decoration: none;
     color: hsl(236, 13%, 42%);
     margin-left: 70px;
+}
+.menu_navegacao img {
+    display: none;
 }
 .menu_navegacao .links:hover {
     text-decoration: underline;
@@ -183,12 +187,14 @@ body {
     .menu_navegacao .links {
         display: none;
     }
-    .menu_navegacao {
-        cursor: pointer;
-        background-image: url('../imagens/icon-menu.svg');
-        width: 40px;
-        height: 17px;
+    .menu_navegacao img {
+        display: block;
     }
+    .menu_navegacao button {
+        background-color: transparent;
+        border: none;
+    }
+   
     .conteudo_principal{
         position: static;
         width: 100%;
@@ -249,9 +255,8 @@ body {
     }
  /* Criando o menu de navegação interativo */   
     .menu_interativo {
-        transition: all 0.3s;
         background-color: hsl(36, 100%, 99%);
-        display: block;
+        display: none;
         position: absolute;
         width: 70%;
         height: 100vh;
@@ -261,9 +266,13 @@ body {
     }
     .icone {
         margin-top: 30px;
-        margin-right: 25px;
+        margin-right: 40px;
         display: flex;
         justify-content: end;
+    }
+    .icone button {
+        border: none;
+        background-color: transparent;
     }
     .navegacao {
         display: flex;
