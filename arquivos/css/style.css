@@ -169,15 +169,20 @@ body {
         width: 100%;
         height: 100%;
         margin: 0 auto;
-        padding: 40px 25px;
+        padding: 40px 25px 0px 25px;
     }
     .cabecalho {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .menu_navegacao {
+    .menu_navegacao .links {
         display: none;
+    }
+    .menu_navegacao {
+        background-image: url('../imagens/icon-menu.svg');
+        width: 40px;
+        height: 17px;
     }
     .conteudo_principal{
         position: static;
@@ -222,6 +227,20 @@ body {
         background-color: hsl(240, 100%, 5%);
         width: 100%;
         margin-top: 50px;
+    }
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        padding-bottom: 80px;
+    }
+    .caixas {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .afastamento{
+        margin-right: 0px;
     }
 }
  
