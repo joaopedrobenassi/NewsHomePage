@@ -4,10 +4,8 @@
 ![Capturar](https://user-images.githubusercontent.com/96848279/208248076-a0011865-42e9-41d3-8d0a-dbb717ef4cc9.JPG)
 ![mobilenewshomeopen](https://user-images.githubusercontent.com/96848279/208248079-eed02a77-6b8b-4d6c-8f74-0d7fbbade1a5.JPG)
 
-
-
-## :books: Funcionalidades
-* <b>Funcionalidade 1</b>: 
+## :books: Objetivo
+Criar uma págia de um website responsiva e com menu interativo.
 
 ## :wrench: Tecnologias utilizadas
 * HTML;
@@ -17,4 +15,5 @@
 ## :dart: Status do projeto
 * Finalizado 
 
-## Deploy:
+## Deploy
+https://joaopedrobenassi.github.io/NewsHomePage/
